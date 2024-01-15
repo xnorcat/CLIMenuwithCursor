@@ -1,0 +1,5 @@
+C:\Users\mrhitj\Documents\csharp\MoveableChoice\MoveableChoice\bin\Debug\MoveableChoice.exe
+C:\Users\mrhitj\Documents\csharp\MoveableChoice\MoveableChoice\bin\Debug\MoveableChoice.pdb
+C:\Users\mrhitj\Documents\csharp\MoveableChoice\MoveableChoice\obj\Debug\MoveableChoice.csprojResolveAssemblyReference.cache
+C:\Users\mrhitj\Documents\csharp\MoveableChoice\MoveableChoice\obj\Debug\MoveableChoice.exe
+C:\Users\mrhitj\Documents\csharp\MoveableChoice\MoveableChoice\obj\Debug\MoveableChoice.pdb
