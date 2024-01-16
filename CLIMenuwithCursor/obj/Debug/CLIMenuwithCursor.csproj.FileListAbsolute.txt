@@ -3,3 +3,8 @@ C:\Users\mrhitj\Documents\csharp\MoveableChoice\MoveableChoice\bin\Debug\CLIMenu
 C:\Users\mrhitj\Documents\csharp\MoveableChoice\MoveableChoice\obj\Debug\CLIMenuwithCursor.csprojResolveAssemblyReference.cache
 C:\Users\mrhitj\Documents\csharp\MoveableChoice\MoveableChoice\obj\Debug\CLIMenuwithCursor.exe
 C:\Users\mrhitj\Documents\csharp\MoveableChoice\MoveableChoice\obj\Debug\CLIMenuwithCursor.pdb
+C:\Users\mrhitj\Documents\Csharp\CLIMenuwithCursor\CLIMenuwithCursor\obj\Debug\CLIMenuwithCursor.csprojResolveAssemblyReference.cache
+C:\Users\mrhitj\Documents\Csharp\CLIMenuwithCursor\CLIMenuwithCursor\obj\Debug\CLIMenuwithCursor.exe
+C:\Users\mrhitj\Documents\Csharp\CLIMenuwithCursor\CLIMenuwithCursor\obj\Debug\CLIMenuwithCursor.pdb
+C:\Users\mrhitj\Documents\Csharp\CLIMenuwithCursor\CLIMenuwithCursor\bin\Debug\CLIMenuwithCursor.exe
+C:\Users\mrhitj\Documents\Csharp\CLIMenuwithCursor\CLIMenuwithCursor\bin\Debug\CLIMenuwithCursor.pdb

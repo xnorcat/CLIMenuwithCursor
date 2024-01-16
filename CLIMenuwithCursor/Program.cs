@@ -32,37 +32,19 @@ namespace Menu
 		
 		static void Main(string[] args)
 		{
-			string Keypress;
+			ConsoleKeyInfo Key;
 			bool MenuLoop = true;
 			int RandomSeed = Convert.ToInt32(DateTime.Now.ToString("hmmss"));
 			Random random = new Random(RandomSeed);
 			
 			while(MenuLoop)
 			{
-				for(int i = 0; i < Menu.MenuList.Length; i++)
-				{
-					Console.WriteLine(Menu.CursorBox[i] + " " + Menu.MenuList[i]);
-				}
+				Menu.Display();
 				
-				Keypress = Convert.ToString(Console.ReadKey(true).Key);
+				Key = Console.ReadKey(true);
+				Menu.Move(Key);
 				
-				if(Keypress == "DownArrow")
-				{
-					Menu.CursorBox[Menu.CursorIndex] = " ";
-					Menu.CursorIndex++;
-					Menu.CursorIndex = (Menu.CursorIndex == Menu.CursorBox.Length) ? Menu.CursorIndex - 1 : Menu.CursorIndex;
-					Menu.CursorBox[Menu.CursorIndex] = Menu.Cursor;
-				}
-				
-				else if(Keypress == "UpArrow")
-				{
-					Menu.CursorBox[Menu.CursorIndex] = " ";
-					Menu.CursorIndex--;
-					Menu.CursorIndex = (Menu.CursorIndex == -1) ? Menu.CursorIndex + 1 : Menu.CursorIndex;
-					Menu.CursorBox[Menu.CursorIndex] = Menu.Cursor;
-				}
-				
-				else if(Keypress == "Enter")
+				if(Key.Key == ConsoleKey.Enter)
 				{
 					ClearBuffer();
 					
